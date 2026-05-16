@@ -1,0 +1,7 @@
+Experiment,Hidden Layers,Activation,Learning Rate,Batch Size,Epochs,Train Loss,Test Loss,Train Acc,Test Acc,Churn Precision,Churn Recall,Churn F1,ROC-AUC
+Baseline,"(16,)",relu,0.001,32,50,0.2064,0.2366,0.9119,0.9,0.075,0.5,0.1304,0.9023
+Deeper Network,"(32, 16)",relu,0.001,32,50,0.0172,0.1466,0.9962,0.9675,0.1818,0.3333,0.2353,0.7982
+Wider Network,"(64,)",relu,0.001,32,50,0.0671,0.111,0.9769,0.96,0.1875,0.5,0.2727,0.893
+High LR,"(16,)",relu,0.01,32,50,0.0055,0.1591,0.9987,0.975,0.0,0.0,0.0,0.7843
+Tanh Activation,"(16,)",tanh,0.001,32,50,0.3,0.3127,0.87,0.865,0.0714,0.6667,0.129,0.8663
+Small Batch,"(16,)",relu,0.001,8,50,0.0675,0.1056,0.9719,0.9625,0.2,0.5,0.2857,0.8976
