@@ -8,6 +8,7 @@ This repository implements a feed-forward neural network for customer churn pred
 
 ## Dataset
 
+- **Source:** Provided in the shared Google Drive folder — https://drive.google.com/drive/folders/1akV6po4Nrgkc3yQrJkzA6cJlV-wBvUYs?usp=sharing (Part 1 dataset: `customer_churn_nn.csv`)
 - File: `customer_churn_nn.csv` (place in the same directory as `notebook.ipynb`, or upload to Colab's working directory)
 - 2,000 rows × 17 columns (1 ID + 15 features + 1 target)
 - **Severe class imbalance: only 1.55% of customers churned** (31 out of 2,000)
